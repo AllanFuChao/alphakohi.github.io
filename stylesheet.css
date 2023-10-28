@@ -1,0 +1,65 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex: 1;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+li {
+    
+}
+
+section{
+
+}
+
+.section1 {
+
+}
+
+.header {
+
+}
+
+h1 {
+
+}
+
+.description {
+
+}
+
+a {
+
+}
+
+.header-image {
+
+}
+
+.categories {
+display:flex;
+}
+
+h2 {
+
+}
+
+.container1 {
+    display:flex;
+}
+
+
+
+
+
