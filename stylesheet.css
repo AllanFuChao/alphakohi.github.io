@@ -1,22 +1,46 @@
-
+* {
+    font-family: Noto Sans, sans-serif;
+    
+}
 
 body {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    background-color: #3a583a;
+    
 }
 
 header {
     display: flex;
     flex: 1;
+    background-color: #3a583a;
+    margin: 0;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.kohishoplogo {
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px #888;
 
 }
 
 nav>ul {
     display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 10px;
+    
 }
 
 li {
-    
+    list-style-type: none;
 }
 
 section{
@@ -40,6 +64,9 @@ h1 {
 }
 
 a {
+    color: #000000;
+    text-decoration: none;
+
 
 }
 
