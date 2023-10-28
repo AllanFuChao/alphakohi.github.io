@@ -7,18 +7,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: #3a583a;
-    
+    background-color: #4a2d1f;
+    margin: auto;
 }
 
 header {
     display: flex;
     flex: 1;
-    background-color: #3a583a;
-    margin: 0;
+    background-color: #4a2d1f;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+    /* border: 5px solid RED; */
+   
 
 }
 
@@ -29,6 +30,7 @@ header {
 
 }
 
+
 nav>ul {
     display: flex;
     font-size: 20px;
@@ -36,23 +38,54 @@ nav>ul {
     flex: 1;
     justify-content: flex-end;
     gap: 10px;
-    
+    color: white;  
+}
+
+.nav1, .nav2, .nav3 {
+    color: black;
+    background-color: #bea58f; 
+    padding: 8px;
+    border-radius: 5px;
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none; 
 }
 
-section{
 
+
+section {
+    display: flex;
+    border: 5px solid red;
+    flex:1 ;
+    flex-shrink: 0;
 }
 
 .section1 {
-
+    background-color: #d6cebf;
 }
 
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    background-image: url(/home/afuc/repos/alphakohi/Images/alphakohi.png);
+    background-size: cover;
+    padding: 150px;
+    color: black;
+    opacity: 0.5;
+}
 
+h1 {
+    font-size: 35px;
+}
+
+.description {
+    border: 1px solid red;
+    
 }
 
 h1 {
