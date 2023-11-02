@@ -6,7 +6,8 @@ body {
     flex-direction: column;
     align-items: stretch;
     background-color: white;
-    margin: auto;
+    margin: 0;
+    color: #141414
 }
 
 header {
@@ -17,15 +18,16 @@ header {
     padding: 10px;
     align-items: center;
     /* border: 5px solid RED; */
-   
-
+    width: 100%;
+    position: fixed;
 }
+
 
 .kohishoplogo {
     border-radius: 5px;
     box-shadow: 2px 2px 5px 5px #888;
     width: 60px;
-   margin-left: 80px;
+   margin-left: 30px;
 }
 
 
@@ -36,7 +38,7 @@ nav, ul{
     flex: 1;
     justify-content: flex-end;
     gap: 10px;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 
@@ -47,6 +49,7 @@ nav, ul{
     padding: 12px;
     border-radius: 20px;
     margin: 10px;
+    margin-right: 60px;
 }
 
 .nav1:hover, .nav2:hover, .nav3:hover {
@@ -56,6 +59,7 @@ nav, ul{
 
 li {
     list-style-type: none; 
+    flex-shrink: 0;
 }
 
 
@@ -69,6 +73,7 @@ section {
 
 .section1 {
     background-color: #d6cebf;
+    padding-top: 70px;
 }
 
 
@@ -85,7 +90,6 @@ section {
     /* background-repeat: no-repeat; */
     /* background-position: center; */
     padding: 150px;
-    color: black;
     opacity: 0.5;
     /* border: 1px solid red; */
     min-width: 300px;
@@ -118,27 +122,60 @@ h1 {
 
 
 a {
-    color: #000000;
     text-decoration: none;
-
-
 }
 
 /* THIS IS THE SECOND SECTION OF THE LANDPAGE */
 .categories {   
 display:flex;
 background-color: #5C5C5C;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid red;
+max-width: 2000px;
 }
 
 h2 {
+    flex: 1;
+    font-size: 30px;
 
 }
 
 .container1 {
     display:flex;
-
+    flex-grow: 1;
+    min-width: 0;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 1px solid red;
 }
 
+
+.premiumcoffee, .merchandise, .pastries, .sandwich {
+    border-radius: 10px;
+    width: 400px;
+    align-content: center;
+  }
+
+.category1, .category2, .category3, .category4 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+align-content: stretch;
+border: 1px solid red;
+margin-bottom: 30px;
+text-align: center;
+flex: 1;
+}
+
+h4 {
+    align-self: center;
+    border: 1px solid red;
+    margin-top: 0;
+    font-size: 20px;
+}
 
 
 
