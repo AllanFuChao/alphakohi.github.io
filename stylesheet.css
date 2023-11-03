@@ -175,7 +175,7 @@ flex: 1;
 }
 
 .coffee-text, .merchandise-text, .pastries-text, .sandwich-text {
-    text-align: center;
+    text-align: center;Fixed the 
     /* border: 1px solid red; */
     display: flex;
     justify-content: flex-end;
@@ -191,6 +191,11 @@ h4 {
     margin-top: 0;
     font-size: 30px;
 }
+
+.aboutus {
+    border: 2px solid red;
+}
+
 
 
 
