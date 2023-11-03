@@ -94,6 +94,7 @@ section {
     /* border: 1px solid red; */
     min-width: 300px;
     max-width: 700px;
+
 }
 
 .title-image {
@@ -104,6 +105,8 @@ section {
 
 .lobby {
     border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px #888;
+
 }
 
 h1 {
@@ -132,13 +135,13 @@ background-color: #5C5C5C;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border: 1px solid red;
+/* border: 1px solid red; */
 max-width: 2000px;
 }
 
 h2 {
     flex: 1;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -148,14 +151,16 @@ h2 {
     min-width: 0;
     justify-content: space-around;
     align-items: stretch;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    gap: 7em;
 }
 
 
 .premiumcoffee, .merchandise, .pastries, .sandwich {
     border-radius: 10px;
-    width: 400px;
-    align-content: center;
+    max-height: 150px;
+    align-self: center;
+    flex: 1;
   }
 
 .category1, .category2, .category3, .category4 {
@@ -164,17 +169,27 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 align-content: stretch;
-border: 1px solid red;
+/* border: 1px solid red; */
 margin-bottom: 30px;
-text-align: center;
 flex: 1;
 }
 
+.coffee-text, .merchandise-text, .pastries-text, .sandwich-text {
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    max-width: 300px;
+    min-height: 80px;
+}
+
+
+
 h4 {
     align-self: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
