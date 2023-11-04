@@ -300,9 +300,24 @@ footer {
     font-size: 10px;
     color: #788585;
     display: flex;
+    justify-content: center;
+    gap: 3em;
 }
 
+.socialmedia {
+    padding: 0;
+}
 
+.whitelink {
+    color: white;
+}
 
+.whitelink:hover {
+    color: grey;
+}
 
+.nopadding {
+    margin: 0;
+    padding: 0;
+}
 
