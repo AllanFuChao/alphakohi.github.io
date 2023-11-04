@@ -7,7 +7,8 @@ body {
     align-items: stretch;
     background-color: white;
     margin: 0;
-    color: #141414
+    color: #141414;
+    font-family: Hind Madurai, sans-serif;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
 }
 
 
-nav, ul{
+.navbar, .ulnav {
     display: flex;
     font-size: 13px;
     font-weight: bold;
@@ -59,7 +60,6 @@ nav, ul{
 
 li {
     list-style-type: none; 
-    flex-shrink: 0;
 }
 
 
@@ -163,7 +163,7 @@ h2 {
     flex: 1;
   }
 
-.category1, .category2, .category3, .category4 {
+.category {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -180,22 +180,27 @@ flex: 1;
     display: flex;
     justify-content: flex-end;
     max-width: 300px;
-    min-height: 80px;
+    min-height: 100px;
 }
 
 
 
-h4 {
+.category-title {
     align-self: center;
-    /* border: 1px solid red; */
+    border: 2px solid #141414;
     margin-top: 0;
-    font-size: 30px;
+    font-size: 18px;
+    background-color: #666666;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
 }
 
-
+/* FROM HERE DOWN IS THE LAST SECTION OF THE LANDSIDE */
 .invitation {
-    border: 2px solid red;
-    background-color: #B6B6B6;
+    /* border: 2px solid red; */
+    background-color: #d6cebf;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,33 +208,52 @@ h4 {
 }
 
 .invitation-title {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 1em;
+    margin-bottom: 0;
 }
 
 .invitation-text {
     text-align: center;
-    width: 1300px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .invitation-title, .invitation-text {
+    font-size: 25px;
   }
 
 
 
-
-
-
 .aboutus {
-    border: 2px solid red;
-    background-color: #B6B6B6;
+    border: 2px solid blue;
+    background-color: #d6cebf;
+}
+
+.aboutusul {
+    border: 2px solid green;
     display: flex;
+    justify-content: space-around;
+}
+
+
+.value {
+    border: 2px solid red;
+    width: px;
+    height: 100px;
 }
 
 
 
 
-
+footer {
+    background-color: #464646;
+    font-size: 10px;
+    color: #788585;
+    display: flex;
+}
 
 
 
