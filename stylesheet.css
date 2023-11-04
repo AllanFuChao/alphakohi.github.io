@@ -142,6 +142,7 @@ max-width: 2000px;
 h2 {
     flex: 1;
     font-size: 40px;
+    margin-top: 1em;
 
 }
 
@@ -228,24 +229,70 @@ flex: 1;
 
 
 .aboutus {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: #d6cebf;
+    padding-top: 2em;
 }
 
 .aboutusul {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-around;
+    height: 200px;
+    gap: 20px;
 }
 
 
 .value {
-    border: 2px solid red;
-    width: px;
-    height: 100px;
+    /* border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+
+.shirt{
+    /* border: 2px solid red; */
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
 }
 
+.shirt-text {
+    margin-top: 0;
+}
 
+.coffee {
+    width: 80px;
+    height: 80px;
+    /* border: 2px solid red; */
+}
+
+.eco {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.restructuring {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.value-icon {
+}
+
+.value-text {
+    height: 200;
+    /* border: 2px solid red; */
+    align-content: center;
+    width: 400px;
+    
+}
+
+.coffee-icon-text {
+    margin-top: 0;
+}
 
 
 footer {
